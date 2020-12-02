@@ -1,0 +1,29 @@
+#root{
+    height: 100%;
+    position: relative;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.main .header{
+    height: 60px;
+    background-color: #61dafb;
+}
+.main .content{
+    flex: 1;
+    background-color: antiquewhite;
+    display: flex;
+    width: 100%;
+}
+.main .content .left{
+    width: 300px;
+    background-color: aquamarine;
+}
+.main .content .right{
+    flex: 1;
+}
+.my-table{
+    /*display: flex;*/
+}
